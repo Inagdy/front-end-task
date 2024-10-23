@@ -35,7 +35,7 @@ Run the Application:
 npm start
 Open your browser and navigate to http://localhost:3000.
 Live Demo
-Check out the live demo here.
+Check out the live demo  here https://ecommerce-elevate-tech-inagdy.netlify.app/home.
 
 Challenges Faced
 Data Fetching: Implementing efficient data fetching and error handling required careful handling of asynchronous operations.
