@@ -1,0 +1,85 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+  --main-color: #061539;
+  --light-color: #7887ab;
+  --text-color: #162955;
+  --card-color: #4f628e;
+  --shadow-color: #2e4172;
+  --font-family: "Encode Sans Expanded", sans-serif;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--main-color);
+}
+.nav-link {
+  transition: unset;
+}
+
+.active-link {
+  background-color: var(--main-color) !important;
+  color: #fff !important;
+  border-radius: 5px;
+}
+
+.cr {
+  cursor: pointer;
+}
+a,
+a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.product {
+  border-radius: 5px;
+  border: soild 1px var(--main-color);
+  transition: box-shadow 0.5s;
+  overflow: hidden;
+}
+.product:hover {
+  box-shadow: 0 0 10px var(--light-color);
+}
+.btn-main {
+  background-color: var(--card-color);
+  padding: 7px 20px;
+  border: 1px solid var(--light-color);
+  color: #fff;
+  cursor: pointer;
+}
+.icon-size {
+  width: 45px;
+  height: 45px;
+}
+.bg-main-light {
+  background-color: var(--light-color);
+}
+.btn-main {
+  background-color: var(--main-color);
+  padding: 7px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+.btn-main:disabled {
+  cursor: not-allowed;
+  background-color: #ccc;
+}
+.btn-main:disabled:hover {
+  background-color: #ccc;
+}
+.btn-main:hover {
+  background-color: var(--light-color);
+}
+.fixed-height-image {
+  height: 300px; 
+  object-fit: center;
+  width: 100%; 
+}
+/* <!-- navbar --> */
+
+.bg-body-tertiary {
+  --bs-bg-opacity: 1;
+  background-color: var(--shadow-color) !important;
+}
